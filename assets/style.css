@@ -5,7 +5,11 @@
 
 
 main {
+    font-family: 'arial';
+}
 
+h3{
+    line-height: 30px;
 }
 
 .grid-container {
@@ -49,23 +53,67 @@ main {
      margin: 0px;
      padding: 0px;
      /*delete on time*/
-     box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
-     text-align: left;
+     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.692);
+     text-align: left; */
 }
 
-.question {
+.question, .highscoreHeader {
     color: black;
+    font-size: 30px;
 }
 
-.responses {
+.start h1 {
+ margin-bottom: 0px;
+}
 
+.responses button {
+    display: block;
+}
+.start{
+    text-align: center;
+    justify-content: center;
 }
 
 .btn {
     background-color:purple;
     color: white;
+    padding: 7px 12px;
+    border-radius: 5px;
+    border: 1px black;
+    flex-wrap: wrap;
+    margin: 15px;
+    font-size: large;
+
+}
+
+.solidLine {
+    border-top: 3px solid gray;
+}
+
+.score {
+    font-size: medium;
+    border: 1px solid black;
+    padding: 0px 5px;
+    background-color: blueviolet;
+    width: 250px;
+    margin: 0px;
+    text-align: center;
+}
+
+.rightOrWrong {
+    color: gray;
+    font-size: large;
+    justify-content: left;
+    text-align: left;
+    display: flex;
+    width: 900px;
+    height: auto;
+    position: relative;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .btn:hover {
     background-color: var(--purp);
 }
+

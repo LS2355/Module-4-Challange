@@ -1,0 +1,20 @@
+{
+  "name": "module-4-challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LS2355/Module-4-challange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LS2355/Module-4-challange/issues"
+  },
+  "homepage": "https://github.com/LS2355/Module-4-challange#readme"
+}
